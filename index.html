@@ -1,95 +1,90 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <meta name="apple-mobile-web-app-capable" content="yes"><meta name="robots" content="noindex, nofollow">
-  <title>Scripbox Demo Account</title>
-  <meta content="Scripbox Demo Account" name="description">
-  <meta content="https://dusy1lvven6c5.cloudfront.net/content/attachment/657/og-home-a8c97ba4e0aba1db981953af8cf20be8b075eec4e370bc13b1085c6949e76b7d.png" property="og:image">
-  <link rel="shortcut icon" type="image/png" href="https://asset2.scripbox.com/images/favicon.png">
-  <link rel="apple-touch-icon" type="image/png" href="https://asset2.scripbox.com/images/favicon.png">
-  <link rel="manifest" href="/manifest.json">
-  <link rel="canonical" href="https://invest.scripbox.com">
-  <script nonce="157949410848200">if('true' === 'true') {
-  if(typeof window.__REACT_DEVTOOLS_GLOBAL_HOOK__ === 'object') {
-    __REACT_DEVTOOLS_GLOBAL_HOOK__.inject = function() {};
-  }
-}</script><script nonce="157949410848200">try {
-  localStorage.isPrivateMode = false;
-} catch (e) {
-  alert('This application does not work in private browsing mode. Please switch to normal browsing mode.');
-}</script><script nonce="157949410848200">var Android = Android || null;</script>
-<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,400,400i,700">
-<link rel="stylesheet" type="text/css" href="styles/0.97.2-materialize.css">
-<link rel="stylesheet" type="text/css" href="styles/vendors~index.css">
-<link rel="stylesheet" type="text/css" href="styles/index.css">
-</head>
-<body>
-<script nonce="157949410848200">sessionStorage.setItem('isPersonalizedLogin', false);</script>
-<div id="main"></div>
-<div id="sff_127__widget-container"></div>
-<div id="toastBar"></div>
-<div id="overlay"></div>
-<script src='https://code.jquery.com/jquery-2.1.1.min.js'></script>
-<script src="js/0.97.3-materialize.min.js"></script>
-<script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Intl.~locale.en-IN"></script>
-<script src="js/runtime.js"></script>
-<script src="js/amcharts3-react/index.js"></script>
-<script src="js/vendors~index.js"></script>
-<script src="js/index.js"></script>
-<script nonce="157949410848200">var cardPath = [
-  '/dashboard',
-  '/accounts',
-  '/portfolio',
-  '/investment-plan/',
-  '/investments/withdraw',
-  '/four_kinds_of_money',
-  '/discrepancy',
-  '/manage_account',
-  '/preferences',
-  '/signup/welcome-to-scripbox',
-  '/account-statement',
-  '/performance',
-  '/signup/mutual-fund-info',
-  '/investment_info/',
-  '/referral',
-  '/signup/documents-required',
-  '/investment-plan-new/',
-  '/portfolio-new',
-  '/fund-factsheet/FIVFG',
-  '/move-asset/',
-  '/portfolio_scan'
-];
-var pathname = window.location.pathname;
-for (var i = 0; i < cardPath.length; i++) {
-  if (cardPath[i] === pathname || pathname.search(cardPath[i]) > -1) {
-    document.body.classList.add("sb-card-container");
-    break;
-  } else {
-    document.body.classList.remove("sb-card-container");
-  }
-}</script>
-<script nonce="157949410848200">var source = '';
-if (typeof source === 'string' && (source === 'scripbox_android' || source === 'scripbox_ios')) {
-  window.sessionStorage['user-agent-source'] = source;
-}
-function jQueryLoaded() {
-  if (typeof jQuery === 'undefined') {
-    setTimeout(jQueryLoaded, 5000);
-  } else {
-    $(document).ready(function(){
-      var currentWidth=$(window).width();
-      var currentHeight=$(window).height();
-      $(window).resize(function(){
-        clearTimeout(window.resizedFinished);
-        window.resizedFinished = setTimeout(function(){
-          if(
-            (currentWidth>992 && $(window).width()<=992)||
-            (currentWidth<993 && $(window).width()>=993)
-          ){
-            location.reload();
-          }
-        }, 500);
-      });
-    });
-  }
-}
-jQueryLoaded();</script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Scripbox Demo Account</title>
+    <meta content="Scripbox Demo Account" name="description">
+    <meta content="https://dusy1lvven6c5.cloudfront.net/content/attachment/657/og-home-a8c97ba4e0aba1db981953af8cf20be8b075eec4e370bc13b1085c6949e76b7d.png" property="og:image">
+    <link rel="shortcut icon" type="image/png" href="https://asset2.scripbox.com/images/favicon.png">
+    <link rel="apple-touch-icon" type="image/png" href="https://asset2.scripbox.com/images/favicon.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="canonical" href="https://invest.scripbox.com">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,400,400i,700"/>
+    <link rel="stylesheet" href="/styles/0.97.2-materialize.css"/>
+  <link href="/styles/main.823333f8568986ac228e.css" rel="stylesheet"></head>
+  <body>
+    <div id="main"></div>
+    <div id="sff_127__widget-container"></div>
+    <div id="toastBar"></div>
+    <div id="overlay"></div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js" defer="defer"></script>
+    <script src="/js/0.97.3-materialize.min.js" type="text/javascript" defer="defer"></script>
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Intl.~locale.en-IN"></script>
+    <script>
+      var Android = Android || null;
+      var cardPath = [
+        '/dashboard',
+        '/accounts',
+        '/portfolio',
+        '/investment-plan/',
+        '/investments/withdraw',
+        '/four_kinds_of_money',
+        '/discrepancy',
+        '/manage_account',
+        '/preferences',
+        '/signup/welcome-to-scripbox',
+        '/account-statement',
+        '/performance',
+        '/signup/mutual-fund-info',
+        '/investment_info/',
+        '/referral',
+        '/signup/documents-required',
+        '/investment-plan-new/',
+        '/portfolio-new',
+        '/fund-factsheet/FIVFG',
+        '/move-asset/',
+        '/portfolio_scan'
+      ];
+      var pathname = window.location.pathname;
+      for (var i = 0; i < cardPath.length; i++) {
+        if (cardPath[i] === pathname || pathname.search(cardPath[i]) > -1) {
+          document.body.classList.add("sb-card-container");
+          break;
+        } else {
+          document.body.classList.remove("sb-card-container");
+        }
+      }
+    </script>
+    <script>
+      var source = '';
+      if (typeof source === 'string' && (source === 'scripbox_android' || source === 'scripbox_ios')) {
+        window.sessionStorage['user-agent-source'] = source;
+      }
+      function jQueryLoaded() {
+        if (typeof jQuery === 'undefined') {
+          setTimeout(jQueryLoaded, 5000);
+        } else {
+          $(document).ready(function(){
+            var currentWidth=$(window).width();
+            var currentHeight=$(window).height();
+            $(window).resize(function(){
+              clearTimeout(window.resizedFinished);
+              window.resizedFinished = setTimeout(function(){
+                if(
+                  (currentWidth>992 && $(window).width()<=992)||
+                  (currentWidth<993 && $(window).width()>=993)
+                ){
+                  location.reload();
+                }
+              }, 500);
+            });
+          });
+        }
+      }
+    </script>
+  <script type="text/javascript" src="/js/main.js"></script></body>
+</html>
+

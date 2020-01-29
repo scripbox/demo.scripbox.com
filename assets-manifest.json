@@ -1,12 +1,6 @@
 {
-  "index.css": "styles/index.css",
-  "index.css.map": "styles/index.css.map",
-  "index.js": "js/index.js",
-  "index.js.map": "js/index.js.map",
-  "runtime.js": "js/runtime.js",
-  "runtime.js.map": "js/runtime.js.map",
-  "vendors~index.css": "styles/vendors~index.css",
-  "vendors~index.css.map": "styles/vendors~index.css.map",
-  "vendors~index.js": "js/vendors~index.js",
-  "vendors~index.js.map": "js/vendors~index.js.map"
+  "index.css": "styles/main.823333f8568986ac228e.css",
+  "index.css.map": "styles/main.823333f8568986ac228e.css.map",
+  "index.js": "js/main.js",
+  "index.js.map": "js/main.js.map"
 }
